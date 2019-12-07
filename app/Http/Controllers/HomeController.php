@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Slider;
 use App\Works;
+use App\WorksInfo;
 
 class HomeController extends Controller
 {
@@ -28,5 +29,10 @@ class HomeController extends Controller
         $works = Works::get();
         $slides = Slider::get();
         return view('pages.index', compact('slides', 'works'));
+    }
+
+    public function contact()
+    {
+        return view('pages.contact');
     }
 }

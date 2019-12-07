@@ -1,0 +1,6 @@
+@extends('layouts.app')
+@extends('layouts.main.head')
+@extends('layouts.main.navigation')
+@extends('layouts.main.preload')
+@extends('layouts.contact.contacts')
+@extends('layouts.main.footer')

@@ -1412,7 +1412,9 @@ moe .color-dark .left-side ul li a:hover {
 .project-box .project-image {
   width: 100%;
   display: block;
+  
 }
+
 .project-box .project-image a {
   display: block;
 }
@@ -2724,4 +2726,8 @@ moe .color-dark .left-side ul li a:hover {
   }
 }
 
+/*SCROLLBAR*/
+::-webkit-scrollbar {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */

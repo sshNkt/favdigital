@@ -5,5 +5,7 @@
 @yield('works')
 @yield('services')
 @yield('clients')
+@yield('case')
 @yield('contact')
+@yield('contactPage')
 @yield('footer')
