@@ -20,9 +20,9 @@
                 @foreach ($works as $item)
                 <li>
                     <div class="project-box">
-                        <figure class="project-image reveal-effect masker wow">
-                            <a href="images/{{$item->img}}" data-fancybox
-                                ><img src="images/{{$item->img}}" alt="Image"
+                        <figure class="project-image reveal-effect masker wow"> 
+                                <a href="cases/{{$item->id}}"
+                                    ><img class="img-effect" src="images/{{$item->img}}" alt="Image"
                             /></a>
                         </figure>
                         <div class="project-content">

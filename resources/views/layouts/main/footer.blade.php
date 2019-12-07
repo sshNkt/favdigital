@@ -5,7 +5,7 @@
           <div class="row">
             <div class="col-12">
               <div class="career wow fadeInUp">
-                <h6>CAREER OF AGENSY UKRAINE</h6>
+                <h6>CAREER OF FAVDIGITAl</h6>
                 <h2>We allways looking for talented peoples, soo let's work together</h2>
                 <div class="custom-link"><a href="#">Apply Now</a> <span></span> <i></i>
                 </div>
@@ -21,8 +21,8 @@
               <h5>Location</h5>
               <address>
               Studio Favdigital<br>
-              Kristiatik 15th Street, Floot 17<br>
-              Kiev, Ukraine 78692
+              Deribasivska 20, Floot 17<br>
+              Odessa, Ukraine 65000
               </address>
             </div>
             <!-- end col-4 -->

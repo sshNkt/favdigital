@@ -43,8 +43,8 @@
                     Just hard work and results. Email us.
                 </h2>
                 <address>
-                    Kristiatik 15th Street, Floot 17
-                    <br />Kiev, Ukraine 78692
+                    Deribasivska 20, Floot 17<br>
+                    Odessa, Ukraine 65000
                     <br />
                     <a href="#">hello@favdigital.eu</a>
                     +380 63 186 6113
@@ -159,7 +159,7 @@
                             <br />Digital Agency
                         </h1>
                     @else
-                    <h1>/*{{$title['name']}}*/</h1>
+                    <h1 class="glitch" data-glitch="/*{{$title['name']}}*/">/*{{$title['name']}}*/</h1>
                     <h4>{{$title['description']}}</h4>
                     @endif
                     

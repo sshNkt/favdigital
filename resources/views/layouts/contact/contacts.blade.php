@@ -8,9 +8,9 @@
             <div class="row">
                 <div class="col-md-6 wow fadeInUp">
                 <h5>ADDRESS</h5>
-                    <address>Favdigital<br>
-        Kristiatik 15th Street, Floot 17<br>
-        Kiev, Ukraine 78692
+        <address>Favdigital<br>
+                      Deribasivska 20, Floot 17<br>
+                      Odessa, Ukraine 65000
         </address>
                 </div>
                 <!-- end col-6 -->
