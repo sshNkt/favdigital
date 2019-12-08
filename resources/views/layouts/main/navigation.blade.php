@@ -159,7 +159,7 @@
                             <br />Digital Agency
                         </h1>
                     @else
-                    <h1 class="glitch" data-glitch="/*{{$title['name']}}*/">/*{{$title['name']}}*/</h1>
+                    <h1>/*{{$title['name']}}*/</h1>
                     <h4>{{$title['description']}}</h4>
                     @endif
                     
