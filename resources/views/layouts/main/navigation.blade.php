@@ -151,7 +151,7 @@
                 <div class="container">
                         @if (Route::current()->getName() == 'index')
                     <h1>
-                        Digital Agencyy
+                        Digital Agencyss
                     </h1>
                     @elseif(Route::current()->getName() == 'contact')
                     <h1>
