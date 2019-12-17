@@ -7,8 +7,13 @@ use App\Slider;
 use App\Works;
 use App\WorksInfo;
 
-class HomeController extends Controller
-{
+class IndexController extends MainController
+{   
+    
+    public function __construct()
+    {
+        parent::__construct();
+    }
     // /**
     //  * Create a new controller instance.
     //  *
@@ -26,13 +31,16 @@ class HomeController extends Controller
      */
     public function index()
     {
+        
         $works = Works::get();
         $slides = Slider::get();
-        return view('pages.index', compact('slides', 'works'));
+        $menu = $this->menu;
+        return view('pages.index', compact('slides', 'works','menu'));
     }
 
     public function contact()
     {
-        return view('pages.contact');
+        $menu = $this->menu;
+        return view('pages.contact',compact('menu'));
     }
 }

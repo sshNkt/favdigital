@@ -2740,3 +2740,18 @@ moe .color-dark .left-side ul li a:hover {
   transition: 0.4s ease-in;
   transform: scale(1.1);
 }
+.console-container {
+  font-size: 8VW;
+  font-weight: 800;
+  line-height: 1;
+  margin: 0;
+  padding-bottom: 5px;
+  color:#fff;
+ 
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+ 
+  left:10px;
+}

@@ -55,6 +55,7 @@
 <audio id="hamburger-hover" src="{{asset('audio/link.mp3')}}" preload="auto"></audio>
 
 <!-- JS FILES --> 
+
 <script src="{{ asset('js/jquery.min.js') }}"></script> 
 <script src="{{ asset('js/imagesloaded.pkgd.min.js') }}"></script> 
 <script src="{{ asset('js/isotope.min.js') }}"></script> 
@@ -64,6 +65,10 @@
 <script src="{{ asset('js/fancybox.min.js') }}"></script> 
 <script src="{{ asset('js/wow.min.js') }}"></script> 
 <script src="{{ asset('js/scripts.js') }}"></script> 
+@if (Route::current()->getName() == 'index')
+<script src="{{ asset('js/consoleText.js') }}"></script> 
+@endif
+
 </body>
 </html>
 @endsection

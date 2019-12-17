@@ -3,18 +3,18 @@
         <div class="inner">
             <div class="side-menu">
                 <ul>
+                    @foreach ($menu as $item)
                     <li>
-                        <a href="{{route('index')}}">Agency</a>
-                    </li>
+                            <a href="#">{{$item['title']}}</a>
+                        </li>
+                    @endforeach
+                  
                     {{-- <li>
                         <a href="#">Cases</a>
                     </li>
-                    <li>
+                <li>
                         <a href="#">Blog</a>
                     </li> --}}
-                    <li>
-                            <a href="{{route('contact')}}">Contact</a>
-                    </li>
                 </ul>
             </div>
             <!-- end side-menu -->
@@ -87,18 +87,18 @@
             <!-- end phone -->
             <div class="main-menu">
                 <ul>
-                    <li>
-                        <a href="{{route('index')}}">Agency</a>
-                    </li>
+                        @foreach ($menu as $item)
+                        <li>
+                                <a href='{{route($item['url'])}}'>{{$item['title']}}</a>
+                            </li>
+                        @endforeach
+                      
                     {{-- <li>
                         <a href="#">Cases</a>
                     </li>
                     <li>
                         <a href="#">Blog</a>
                     </li> --}}
-                    <li>
-                            <a href="{{route('contact')}}">Contact</a>
-                    </li>
                 </ul>
             </div>
             <!-- end main-menu -->
@@ -150,16 +150,14 @@
         <div class="headlines">
                 <div class="container">
                         @if (Route::current()->getName() == 'index')
-                    <h1>
-                        Digital Agencyss
-                    </h1>
+                       <div class="console-container"><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
                     @elseif(Route::current()->getName() == 'contact')
                     <h1>
                             Contact
                             <br />Digital Agency
                         </h1>
                     @else
-                    <h1 class="glitch" data-glitch="/*{{$title['name']}}*/">/*{{$title['name']}}*/</h1>
+                    <h1>/*{{$title['name']}}*/</h1>
                     <h4>{{$title['description']}}</h4>
                     @endif
                     

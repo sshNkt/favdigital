@@ -9,9 +9,9 @@
                         <figure>
                         </figure>
                         <h2>{{$item->text}}</h2>
-                        <div class="link">
+                        {{-- <div class="link">
                             <a href="/{{$item->btn_link}}">SEE CASE STUDY</a>
-                        </div>
+                        </div> --}}
                         <!-- end link -->
                     </div>
                     <!-- end slide-inner -->
