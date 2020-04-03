@@ -44,11 +44,12 @@
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    {{-- <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> --}}
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    
     <!-- CSS FILES -->
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('css/animate.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/odometer.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/fancybox.min.css') }}">

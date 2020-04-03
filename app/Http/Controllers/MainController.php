@@ -7,9 +7,14 @@ use App\Menu;
 
 class MainController extends Controller
 {
-    protected $menu;
+    public $menu;
     public function __construct()
     {
         $this->menu = Menu::getMenu();
+    }
+
+    public function sendForm()
+    {
+        return redirect('/');
     }
 }

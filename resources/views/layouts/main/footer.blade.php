@@ -56,7 +56,7 @@
 
 <!-- JS FILES --> 
 
-<script src="{{ asset('js/jquery.min.js') }}"></script> 
+<script src="{{ asset('js/jquery.min.js') }}" ></script> 
 <script src="{{ asset('js/imagesloaded.pkgd.min.js') }}"></script> 
 <script src="{{ asset('js/isotope.min.js') }}"></script> 
 <script src="{{ asset('js/swiper.min.js') }}"></script> 

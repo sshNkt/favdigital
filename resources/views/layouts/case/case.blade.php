@@ -44,7 +44,7 @@
                     <p>{{$info['link']}}</p>
                 </div>
                 <!-- end col-6 -->
-                <div class="col-12"><figure><img src="../images/{{$title['img']}}" alt="Image"></figure></div>
+                {{-- <div class="col-12"><figure><img src="../images/{{$title['img']}}" alt="Image"></figure></div> --}}
                 <!-- end col-12 -->
                 <div class="col-12">
                     <h3>Thanks for Watching</h3>

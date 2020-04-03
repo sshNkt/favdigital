@@ -3,4 +3,5 @@
 @extends('layouts.main.navigation')
 @extends('layouts.main.preload')
 @extends('layouts.contact.contacts')
+@extends('layouts.contact.form')
 @extends('layouts.main.footer')

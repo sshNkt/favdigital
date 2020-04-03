@@ -7,4 +7,6 @@
 @extends('layouts.main.services')
 @extends('layouts.main.clients')
 @extends('layouts.main.contact')
+@extends('layouts.contact.workform')
+@extends('layouts.contact.form')
 @extends('layouts.main.footer')

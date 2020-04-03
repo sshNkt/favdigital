@@ -1,15 +1,6 @@
 (function($) {
     $(document).ready(function() {
         "use strict";
-
-        window.onblur = function() {
-            document.title = "Come back :)";
-        };
-
-        window.onfocus = function() {
-            document.title = "Favdigital";
-        };
-
         // PRELOADER
         loader();
         function loader(_success) {
