@@ -3,23 +3,23 @@
         <div class="inner">
             <div class="side-menu">
                 <ul>
+                    @foreach ($menu as $item)
                     <li>
-                        <a href="{{route('index')}}">Agency</a>
-                    </li>
+                            <a href='{{route($item['url'])}}'>{{$item['title']}}</a>
+                        </li>
+                    @endforeach
+                  
                     {{-- <li>
                         <a href="#">Cases</a>
                     </li>
-                    <li>
+                <li>
                         <a href="#">Blog</a>
                     </li> --}}
-                    <li>
-                            <a href="{{route('contact')}}">Contact</a>
-                    </li>
                 </ul>
             </div>
             <!-- end side-menu -->
             <div class="sides">
-                <div id="map">
+                {{-- <div id="map">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d325518.68780316407!2d30.252511957059642!3d50.4016990487754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNGX0LIsIDAyMDAw!5e0!3m2!1suk!2sua!4v1552081224273"
                         width="600"
@@ -27,7 +27,7 @@
                         style="border:0"
                         allowfullscreen
                     ></iframe>
-                </div>
+                </div> --}}
                 <!-- end map -->
                 <figure>
                     <img src="{{asset('images/kyiv.jpg')}}" alt="Image" />
@@ -87,18 +87,18 @@
             <!-- end phone -->
             <div class="main-menu">
                 <ul>
-                    <li>
-                        <a href="{{route('index')}}">Agency</a>
-                    </li>
+                        @foreach ($menu as $item)
+                        <li>
+                                <a href='{{route($item['url'])}}'>{{$item['title']}}</a>
+                            </li>
+                        @endforeach
+                      
                     {{-- <li>
                         <a href="#">Cases</a>
                     </li>
                     <li>
                         <a href="#">Blog</a>
                     </li> --}}
-                    <li>
-                            <a href="{{route('contact')}}">Contact</a>
-                    </li>
                 </ul>
             </div>
             <!-- end main-menu -->
@@ -150,9 +150,7 @@
         <div class="headlines">
                 <div class="container">
                         @if (Route::current()->getName() == 'index')
-                    <h1>
-                        Digital Agency
-                    </h1>
+                       <div class="console-container"><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
                     @elseif(Route::current()->getName() == 'contact')
                     <h1>
                             Contact

@@ -11,9 +11,10 @@
                             grow.
                         </p>
                         <div class="custom-btn">
-                            <a href="#">Let's work<span></span> <i></i></a>
+                            <button id="letsWork">Let's work<span></span> <i></i></button>
                         </div>
                         <!-- end custom-btn -->
+                        @yield('workform')
                     </div>
                     <!-- end titles -->
                 </li>

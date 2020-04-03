@@ -26,9 +26,9 @@
                 <div class="col-12"><figure><img src="../images/projects/{{$info['image2']}}" alt="Image"></figure></div>
                 <!-- end col-12 -->
                 <div class="col-lg-8">
-                <h5>WIREFRAMING</h5>
-                    <p>Solution for the morning preparation with every guy’s first date in mind by creating a neat branding finding a self lenguage with the minimal elements possible. Taking care about everything goes right at that special day is the main goal and best briefing possible.</p>
-                </div>
+
+                    <p>{{$info['wireframing']}}</p>
+                </div> 
                 <!-- end col-8 -->
                 <div class="col-lg-6"><figure><img src="../images/projects/{{$info['image3']}}" alt="Image"></figure></div>
                 <!-- end col-6 -->
@@ -44,7 +44,7 @@
                     <p>{{$info['link']}}</p>
                 </div>
                 <!-- end col-6 -->
-                <div class="col-12"><figure><img src="../images/{{$title['img']}}" alt="Image"></figure></div>
+                {{-- <div class="col-12"><figure><img src="../images/{{$title['img']}}" alt="Image"></figure></div> --}}
                 <!-- end col-12 -->
                 <div class="col-12">
                     <h3>Thanks for Watching</h3>

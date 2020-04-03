@@ -16,6 +16,8 @@
 Auth::routes();
 
 // Route::get('/home', 'HomeController@admin')->name('home');
-Route::get('/', 'HomeController@index')->name('index');
+Route::get('/', 'IndexController@index')->name('index');
 Route::get('/cases/{id}', 'WorksController@show');
-Route::get('/contact', 'HomeController@contact')->name('contact');
+Route::get('/contact', 'IndexController@contact')->name('contact');
+Route::post('/contact', 'IndexController@sendForm');
+Route::get('checkSite', 'IndexController@checkSite');
