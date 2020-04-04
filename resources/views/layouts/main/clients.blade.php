@@ -2,10 +2,11 @@
 <section class="logos">
         <div class="container">
             <div class="titles">
-                <h6>SELECTED CLIENTS</h6>
+                <h6>OUR CLIENTS</h6>
                 <p>
-                    We’re constantly refining our product. Adding new features.
-                    Working to help your business grow.
+                    Some friends we have made while working together.
+                    
+                    
                 </p>
             </div>
             <!-- end titles -->
