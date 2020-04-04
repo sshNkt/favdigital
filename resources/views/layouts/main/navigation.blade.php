@@ -75,7 +75,7 @@
         </a>
     </aside>
     <!-- end left-side -->
-    <header class="header">
+    <header class="header" data-header="favdigital">
         <nav class="navbar">
             <div class="logo">
                 <a href="{{route('index')}}">

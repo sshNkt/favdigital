@@ -1,5 +1,5 @@
 @section('works')
-<section class="works">
+<section class="works" data-works="works">
         <div class="container">
             <ul>
                 <li>
@@ -26,13 +26,14 @@
                                     ><img class="img-effect" src="images/{{$item->img}}" alt="Image"
                             /></a>
                         </figure>
-                        <div class="project-content">
+                        <div class="project-content custom-link">
                             <h3>
                                 <a href="cases/{{$item->id}}"
                                     >{{$item->name}}
+                                </a>
+                                    <hr>
                             </h3>
-                            <small>{{$item->description}}</small></a
-                            >
+                            <small>{{$item->description}}</small>
                         </div>
                         <!-- end project-content -->
                     </div>

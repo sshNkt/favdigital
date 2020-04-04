@@ -29,7 +29,7 @@ body {
     padding-right: 50px;
     font-family: "Mont";
     font-size: 17px;
-    color: #282828;
+    color: #17161a;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -ms-transition: all 0.4s ease-in-out;
@@ -40,7 +40,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 a {
-    color: #282828;
+    color: #17161a;
     -webkit-transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
     -ms-transition: all 0.25s ease-in-out;
@@ -143,7 +143,7 @@ button[type=submit]:hover i {
     }
 }
 .color-dark {
-    background-color: #282828;
+    background-color: #17161a;
 }
 .color-dark .left-side ul {
     width: 100vh;
@@ -220,7 +220,7 @@ moe .color-dark .left-side ul li a:hover {
     background-color: #fff;
 }
 .color-undefined {
-    background-color: transparent;
+    background-color: #d9092c;
 }
 .overflow {
     overflow: hidden;
@@ -304,7 +304,7 @@ moe .color-dark .left-side ul li a:hover {
     margin: auto;
     width: 100vw;
     height: 100vh;
-    background: #282828;
+    background: #ca0c2b;
     opacity: 1;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -404,7 +404,7 @@ moe .color-dark .left-side ul li a:hover {
     overflow: hidden;
 }
 .burger-svg__base {
-    fill: #fff;
+    fill: #d9092c;
 }
 .burger-svg__bars {
     fill: #282828;
@@ -617,8 +617,9 @@ moe .color-dark .left-side ul li a:hover {
     flex-wrap: wrap;
     flex-direction: column;
     padding-right: 50%;
-    margin-bottom: 80px;
+    margin-top: 80px;
 }
+
 .titles h6 {
     font-size: 17px;
     font-weight: 600;
@@ -709,13 +710,13 @@ moe .color-dark .left-side ul li a:hover {
     flex-wrap: wrap;
     justify-content: center;
     height: 58px;
-    border: 1px solid #282828;
+    border: 1px solid #17161a;
     font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
     padding: 0 30px;
     padding-top: 18px;
-    background: #282828;
+    background: #17161a;
     color: #fff;
 }
 .custom-btn button:hover {
@@ -753,6 +754,18 @@ moe .color-dark .left-side ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    
+}
+.header::after {
+    color: #ca0c2b;
+    content: attr(data-header);
+    display: block;
+    font-size: 250px;
+    line-height: 1;
+    position: absolute;
+    top: 5px;
+    right: 44px;
+    z-index: -1;
 }
 .header .navbar {
     width: 100%;
@@ -991,6 +1004,7 @@ moe .color-dark .left-side ul li a:hover {
 .left-side .gotop img {
     display: block;
 }
+
 .slider {
     width: calc(100% + 50px);
     height: 560px;
@@ -1248,6 +1262,10 @@ moe .color-dark .left-side ul li a:hover {
     margin-bottom: 30px;
     font-weight: 600;
 }
+.serviceback{
+    height: 100%;
+  background: url(../images/test1.png) left bottom no-repeat #282828;
+}
 .main-services {
     width: 100%;
     display: flex;
@@ -1292,6 +1310,18 @@ moe .color-dark .left-side ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     padding: 80px 0;
+    position: relative;
+}
+.works::after {
+    color: #ca0c2b;
+    content: attr(data-works);
+    display: block;
+    font-size: 400px;
+    line-height: 1;
+    position: absolute;
+    top: -45px;
+    right: -51px;
+    z-index: -1;
 }
 .works .titles {
     display: block;
@@ -1335,14 +1365,17 @@ moe .color-dark .left-side ul li a:hover {
 }
 .project-box .project-image a img {
     width: 100%;
+    border-radius: 5px;
 }
 .project-box .project-content {
     width: 100%;
     display: block;
 }
+
 .project-box .project-content h3 {
     font-size: 27px;
     display: block;
+    font-weight: 600;
 }
 .project-box .project-content h3 a {
     display: block;
@@ -1385,12 +1418,27 @@ moe .color-dark .left-side ul li a:hover {
     display: block;
     margin-bottom: 50px;
 }
+.servicemtop{
+    margin-top: 150px;
+}
 .featured-services {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding: 150px 0;
+    padding-top: 150px;
     color: #fff;
+    position: relative;
+}
+.featured-services::after {
+    color: #fff;
+    content: attr(data-services);
+    display: block;
+    font-size: 279px;
+    line-height: 1;
+    position: absolute;
+    top: -59px;
+    right: -30px;
+    z-index: -1;
 }
 .featured-services .col-lg-3:nth-child(2n+2) {
     margin-top: 134px;
@@ -1405,7 +1453,7 @@ moe .color-dark .left-side ul li a:hover {
     border: 1px solid rgba(255, 255, 255, 0.05);
 }
 .featured-services figure:hover {
-    background: #fff;
+    background: #d9092c;
 }
 .featured-services figure:hover img {
     margin: 0;
@@ -1653,7 +1701,7 @@ moe .color-dark .left-side ul li a:hover {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding: 150px 0;
+    padding: 50px 0;
 }
 .logos ul {
     width: 100%;
@@ -2253,6 +2301,18 @@ moe .color-dark .left-side ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     padding: 150px 0;
+    position: relative;
+}
+.footer::after {
+    color: #ca0c2b;
+    content: attr(data-footer);
+    display: block;
+    font-size: 300px;
+    line-height: 1;
+    position: absolute;
+    top: 5px;
+    right: 44px;
+    z-index: -1;
 }
 .footer .career {
     display: block;
@@ -2550,19 +2610,42 @@ moe .color-dark .left-side ul li a:hover {
     .footer .sub-footer ul {
         margin-bottom: 15px;
     }
+    .header::after{
+    font-size: 79px;
+    top: 100px;
+    right: -8px;    
+    }
+    .works::after{
+    font-size: 128px;
+    top: 81px;
+    right: -3px;
+    }
+    .featured-services::after{
+    font-size: 85px;
+    top: 87px;
+    right: 15px;
+    }
+    .footer::after{
+    font-size: 134px;
+    top: 60px;
+    right: 15px;
+    }
 }
 ::-webkit-scrollbar {
     display: none;
 }
 .img-effect{
-    filter: blur(5px);
     box-shadow: 10px 40px 80px -9px rgba(169, 140, 120, 0.9);
     transition: 0.6s ease-out;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 .img-effect:hover{
     filter: blur(0px);
     transition: 0.4s ease-in;
     transform: scale(1.1);
+    cursor: crosshair; 
+    
 }
 .console-container {
     font-size: 8VW;
@@ -2570,7 +2653,7 @@ moe .color-dark .left-side ul li a:hover {
     line-height: 1;
     margin: 0;
     padding-bottom: 5px;
-    color:#fff;
+    color:#d9092c;
 }
 .console-underscore {
     display:inline-block;
@@ -2614,3 +2697,4 @@ moe .color-dark .left-side ul li a:hover {
     text-decoration: none;
     cursor: pointer;
   }
+

@@ -1,6 +1,6 @@
 @section('footer')
 <!-- end work-with-us -->
-<footer class="footer">
+<footer class="footer" data-footer="team">
         <div class="container">
           <div class="row">
             <div class="col-12">
