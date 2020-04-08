@@ -49,12 +49,13 @@
     <!-- Styles -->
     
     <!-- CSS FILES -->
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/animate.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/odometer.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/fancybox.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/swiper.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/animate.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/odometer.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/fancybox.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/swiper.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
+    
 </head>
 <body>
     <div id="app">
