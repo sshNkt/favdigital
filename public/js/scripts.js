@@ -1,8 +1,9 @@
 (function($) {
     $(document).ready(function() {
-        "use strict";
+        ("use strict");
         // PRELOADER
         loader();
+
         function loader(_success) {
             var obj = document.querySelector(".preloader"),
                 inner = document.querySelector(".inner .percentage"),
@@ -415,4 +416,11 @@
             }
         });
     });
+    window.onblur = function() {
+        document.title = "Come back :)";
+    };
+
+    window.onfocus = function() {
+        document.title = "Favdigital";
+    };
 })(jQuery);

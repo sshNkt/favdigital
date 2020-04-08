@@ -82,11 +82,4 @@ $(document).ready(function() {
             modal.style.display = "none";
         }
     };
-    window.onblur = function() {
-        document.title = "Come back :)";
-    };
-
-    window.onfocus = function() {
-        document.title = "Favdigital";
-    };
 });

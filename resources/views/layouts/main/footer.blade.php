@@ -68,7 +68,7 @@
 @if (Route::current()->getName() == 'index')
 <script src="{{ asset('js/consoleText.js') }}"></script> 
 @endif
-
+<script src="{{ asset('js/workSlider.js') }}"></script> 
 </body>
 </html>
 @endsection
