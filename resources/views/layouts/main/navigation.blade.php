@@ -40,7 +40,7 @@
             <div class="sides">
                 <h2>
                     Work with us to build digital product or brand.
-                    Just hard work and results. Email us.
+                    Email us.
                 </h2>
                 <address>
                     Deribasivska 20, Floot 17<br>

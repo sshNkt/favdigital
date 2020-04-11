@@ -7,7 +7,7 @@ class Slideshow {
             $el: $(".slideshow"),
             showArrows: false,
             showPagination: true,
-            duration: 5000,
+            duration: 10000,
             autoplay: true
         };
 

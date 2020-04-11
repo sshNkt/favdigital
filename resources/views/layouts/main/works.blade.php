@@ -1,5 +1,5 @@
 @section('works')
-<section class="works" data-works="works">
+<section class="works" data-works="projects">
         <div class="container">
             <ul>
                 <li>
@@ -40,7 +40,17 @@
                       <div class="slideshow__slide-caption">
                           <div class="slideshow__slide-caption-text">
                               <div class="container js-parallax" data-speed="2" data-position="top" data-target="#js-header">
-                                  <h1 class="slideshow__slide-caption-title">{{$item->name}}</h1>
+                                <div class="menu__item">
+                                    <a class="menu__item-link" href="cases/{{$item->id}}">{{$item->name}}</a>
+                                   
+                                    <div class="marquee">
+                                        <div class="marquee__inner" aria-hidden="true">
+                                            @for ($i = 0; $i < 4; $i++)
+                                            <span>{{$item->name}}</span>
+                                            @endfor
+                                        </div>
+                                    </div>
+                                </div>
                                   <a class="slideshow__slide-caption-subtitle -load o-hsub -link" href="cases/{{$item->id}}">
                                       <span class="slideshow__slide-caption-subtitle-label">View more</span>
                                   </a>

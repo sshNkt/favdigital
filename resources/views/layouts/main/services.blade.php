@@ -55,10 +55,10 @@
                 <!-- end col-3 -->
                 <div class="col-lg-3 col-md-6">
                     <figure class="reveal-effect masker wow">
-                        <img src="images/icon05.svg" alt="Image" />
+                        <img src="images/icon06.svg" alt="Image" />
                         <figcaption>
                             <span>05</span>
-                            <h4>IOS APPS</h4>
+                            <h4>CRM</h4>
                         </figcaption>
                     </figure>
                 </div>

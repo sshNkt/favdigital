@@ -1,7 +1,7 @@
 @section('preload')
 <div class="preloader">
         <div class="inner">
-        <figure class="logo"><img src="{{asset('images/logo-light.png')}}" alt="Image"></figure>
+        <figure class="logo"><img src="{{asset('images/logo.png')}}" alt="Image"></figure>
             <span class="percentage"></span>
         </div>
         <!-- end inner -->

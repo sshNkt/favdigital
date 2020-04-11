@@ -69,6 +69,7 @@
 <script src="{{ asset('js/consoleText.js') }}"></script> 
 @endif
 <script src="{{ asset('js/workSlider.js') }}"></script> 
+<script src="{{ asset('js/form.js')}}"></script>
 </body>
 </html>
 @endsection

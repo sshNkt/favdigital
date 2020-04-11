@@ -13,8 +13,5 @@ class MainController extends Controller
         $this->menu = Menu::getMenu();
     }
 
-    public function sendForm()
-    {
-        return redirect('/');
-    }
+   
 }

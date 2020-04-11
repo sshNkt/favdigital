@@ -6,8 +6,7 @@
                 @foreach ($slides as $item)
                 <div class="swiper-slide" data-background="images/{{$item->img}}">
                     <div class="slide-inner">
-                        <figure>
-                        </figure>
+                        
                         <h2>{{$item->text}}</h2>
                         {{-- <div class="link">
                             <a href="/{{$item->btn_link}}">SEE CASE STUDY</a>
